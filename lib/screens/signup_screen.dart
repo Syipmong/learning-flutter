@@ -15,13 +15,25 @@ class _SignupScreenState extends State<SignupScreen> {
       appBar: AppBar(
         title: Text("Signup Screen"),
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: (){
-            Navigator.pop(context);
-          },
-           child: Icon(Icons.back_hand)),
-      ),
+      body: const ScreenBody(),
+    );
+  }
+}
+
+
+class ScreenBody extends StatelessWidget {
+  const ScreenBody({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
+      children: [
+        Container(
+          height: 100,
+          color: Colors.red,
+        )
+      ],
     );
   }
 }
