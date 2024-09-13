@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/NXDI/learning/learning_flutter/windows"
+    "cmake.sourceDirectory": "C:/NXDI/learning/learning_flutter/windows",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

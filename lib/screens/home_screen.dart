@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: (){
-            Navigator.pushNamed(context, '/signup');
+            Navigator.pushNamed(context, '/thirdscreen');
           }, 
           child: const Text("Click Me!", ),
           )

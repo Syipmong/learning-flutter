@@ -28,6 +28,24 @@ class ScreenBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+   return const Scaffold(
+    body: Column(
+      children: [
+        Row(
+          children: [
+            Column(
+              children: [
+                Icon(Icons.person),
+                Text("Person"),
+                Icon(Icons.alarm),
+                Text("Alarm"),
+              ],
+            ),
+            
+          ],
+        )
+      ],
+    ),
+   );
   }
 }

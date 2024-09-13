@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learning_flutter/screens/home_screen.dart';
 import 'package:learning_flutter/screens/signup_screen.dart';
+import 'package:learning_flutter/screens/third_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,8 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/home': (context) => const HomeScreen(),
         '/signup': (context) => const SignupScreen(),
-        
+        '/thirdscreen': (context) => const ThirdScreen(),
+
       },
     );
   }
