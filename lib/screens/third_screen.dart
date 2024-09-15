@@ -40,8 +40,9 @@ class ScreenBody extends StatelessWidget {
                 Icon(Icons.alarm),
                 Text("Alarm"),
               ],
+
             ),
-            
+            Icon(Icons.play_arrow)
           ],
         )
       ],
